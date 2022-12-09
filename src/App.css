@@ -1,0 +1,169 @@
+@import '~antd/dist/antd.css';
+
+@media only screen and (max-width: 1100px) {
+  #body {
+    width: 90%;
+    margin: auto;
+    margin-top: 35px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  #body {
+    max-width: 1300px; 
+    width: 80%;
+    margin: auto;
+    margin-top: 55px;
+  }
+}
+
+
+.App {
+  background-color:rgb(250, 252, 255);
+}
+html { 
+  background:  rgb(250, 252, 255); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+/* get rid of annoying scroll bar */
+
+html {
+  overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+
+
+/* notes button and text area */
+.ant-btn-ghost.savenote:hover, .ant-btn-ghost.savenote:focus {
+  border-color: #40a9ff !important;
+  z-index: 2;
+}
+.ant-input.notesarea:focus, .ant-input.notesarea:hover, .ant-input-focused.notesarea {
+  border-color: #40a9ff !important;
+  box-shadow: none;
+}
+
+
+
+
+/* description style edits */
+
+.ant-descriptions-view {
+  border-radius: 15px 15px 0 0;
+}
+.diplomaDisplay .ant-descriptions.ant-descriptions-bordered .ant-descriptions-view {
+  border-radius: 15px !important;
+}
+.ant-descriptions-item-content {
+  background: white
+}
+.ant-descriptions-item-label {
+  width: 160px !important;
+}
+
+
+
+
+/* click to edit text fix */
+
+.ant-typography.ant-typography-edit-content {
+  min-width: 130px;
+  margin-left: 12px !important;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-size: 0px !important;
+}
+.ant-page-header-heading-title div div.ant-typography.ant-typography-edit-content {
+  min-width: 250px !important;
+  margin-left: 15px !important;
+  font-size: 0px !important;
+}
+
+
+
+
+/* number input increment remover */
+
+.ant-input-number-handler-wrap {
+  width: 0px !important
+}
+
+
+
+
+/* table styles */
+
+/* .ant-table-row.ant-table-row-level-0.temp:hover{
+  filter: sepia(10%);
+} */
+.ant-table-row.ant-table-row-level-0.row{
+  background:white;
+}
+.ant-table-thead{
+  background:white
+}
+thead tr th{
+  background: transparent !important;
+}
+
+
+
+
+/* removing annoying line on tabs */
+
+.ant-tabs-top > .ant-tabs-nav::before, .ant-tabs-top > div > .ant-tabs-nav::before {
+  width: 0px;
+}
+
+/* tutorial modal and carounsel styling */
+
+/* .slick-slide-slick-cloned{
+  width: 100% !important;
+} */
+.ant-carousel .slick-dots li button {
+  background-color:  #1890ff !important;
+  height: 8px;
+  border-radius: 3px;
+  width: 40px !important;
+}
+.ant-carousel .slick-dots li {
+  width: 40px !important;
+}
+.ant-carousel .slick-dots li.slick-active {
+  background-color:  #1890ff !important;
+  height: 10px;
+  border-radius: 3px;
+  width: 40px !important;
+}
+.ant-carousel .slick-dots-bottom {
+  bottom: -10px;
+}
+
+.ant-modal-close-x {
+  font-size: 20px;
+  background: transparent;
+  color: #ff0044;
+  opacity: .7;
+  margin: -3px;
+}
+.ant-modal-footer {
+  display: none;
+}
+.ant-modal-content {
+  border-radius: 15px;
+}
+
+
+
+
