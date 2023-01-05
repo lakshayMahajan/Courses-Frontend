@@ -334,24 +334,7 @@ const ClassSearch = ({ history }) => {
               </Title>
             }
           />
-          <div
-            style={{
-              fontSize: "13px",
-              color: "#ccc",
-              margin: "-10px 0 25px 0",
-            }}
-          >
-            Brought to you by &nbsp;
-            <a
-              href="https://hsecourses.netlify.app/course/computer-science-iii:-software-development"
-              target="_blank"
-              style={{ opacity: ".6" }}
-            >
-              Software Development's
-            </a>
-            &nbsp; Bazonkey Donkeys Mehra, Sully&#8482;, and Alec The Diamond
-            Minecart
-          </div>
+      
 
           {displayFilterComps()}
 
