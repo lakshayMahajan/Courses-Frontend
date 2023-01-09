@@ -105,10 +105,10 @@ const App = () => {
     });
 
     if (
-      res.data.jobTitle == "12" ||
-      res.data.jobTitle == "11" ||
-      res.data.jobTitle == "10" ||
-      res.data.jobTitle == "9"
+      res.data.jobTitle == 12 ||
+      res.data.jobTitle == 11 ||
+      res.data.jobTitle == 10 ||
+      res.data.jobTitle == 9
     ) {
       setAuth((prev) => ({
         ...prev,
