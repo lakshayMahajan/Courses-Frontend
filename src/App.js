@@ -61,6 +61,7 @@ const App = () => {
           account: accounts[0],
         })
         .then((response) => {
+          const resp = {...response, grade: parseInt(response.grade)}
           setAuth((prev) => ({
             ...prev,
             token: response.accessToken,

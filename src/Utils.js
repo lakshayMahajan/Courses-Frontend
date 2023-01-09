@@ -100,7 +100,7 @@ export const yearConverter = (clas) => {
     return "Junior";
   } else if (clas == 10) {
     return "Sophomore";
-  } else {
+  } else if (clas == 9) {
     return "Freshman";
   }
 };
