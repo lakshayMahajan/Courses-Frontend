@@ -161,7 +161,7 @@ const YearPlan = () => {
           {Object.keys(auth.user.courseData?.courses).map((year) => (
             <>
               <Title level={2} style={{ marginBottom: "0px" }}>
-                {year === yearConverter(auth.user.grade) ? (
+                {year === yearConverter(auth.user.grade + 1) ? (
                   <div>
                     <Tooltip
                       placement="bottom"
